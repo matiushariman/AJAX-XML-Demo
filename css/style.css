@@ -1,0 +1,52 @@
+body{
+	font-family: "Lucida Sans Unicode";
+	background-color: #f3f3f3;
+}
+
+.navbar-default {
+	background-color: #d71149;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	font-size: 0.8em;
+	border-bottom: 5px solid white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #c40c41;
+	color: #fff;
+}
+
+.navbar-brand {
+    background: url(https://s1.bukalapak.com/images/logo/sprite_320x51_12_03052016.png) -6px -6px no-repeat;
+    background-size: 172px;
+    width: 160px;
+    height: 28px;
+    text-indent: -9999px;
+    margin: 10px;
+}
+
+.navbar-default .navbar-nav>li>a{color: rgba(255,255,255,0.8);}
+
+.navbar-default .navbar-nav>li>a:hover{color: rgba(255,255,255,1.0);}
+
+#icons{color: #fff; font-size: 2em;}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    max-width: 100%;
+    height: 180px;
+    width: 120px;
+}
+
+#pop-up {
+  display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background: #d71149;
+  color: #000000;
+  border: 1px solid #fff;
+  font-size: 90%;
+}
+
+h5#item-name{font-weight: bold; text-align: center; color: #fff;}

@@ -1,0 +1,34 @@
+<data>
+	<item>
+		<id>ID001</id>
+		<name>iPhone 6</name>
+		<price>Rp 12.000.000</price>
+		<in-stock>10</in-stock>
+		<seller-info>Recommended seller</seller-info>
+		<desc>New item</desc>
+	</item>
+	<item>
+		<id>ID002</id>
+		<name>Samsung Galaxy S7</name>
+		<price>Rp 11.000.000</price>
+		<in-stock>3</in-stock>
+		<seller-info>Recommended seller</seller-info>
+		<desc>New item</desc>
+	</item>
+	<item>
+		<id>ID003</id>
+		<name>Samsung Galaxy S7 Edge</name>
+		<price>Rp 12.500.000</price>
+		<in-stock>2</in-stock>
+		<seller-info>Unknown</seller-info>
+		<desc>New item</desc>
+	</item>
+	<item>
+		<id>ID004</id>
+		<name>iPhone SE</name>
+		<price>Rp 8.000.000</price>
+		<in-stock>12</in-stock>
+		<seller-info>Recommended seller</seller-info>
+		<desc>Secondhand item</desc>
+	</item>
+</data>

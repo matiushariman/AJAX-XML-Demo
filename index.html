@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX XML Demo</title>
+	<!-- jQuery stored locally -->
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<!-- Bootstrap CSS stored locally -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Bootstrap js stored locally -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- Font Awesome CDN -->
+	<script src="https://use.fontawesome.com/9b2394c1db.js"></script>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Custom script -->
+  <script src="js/ajax_itemLoader.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Bukalapak.com</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right" id="icons">
+        <li><a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="thumbnail">
+            <img src="img/img001.jpg" class="trigger" id="ID001">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="thumbnail">
+            <img src="img/img002.jpg" class="trigger" id="ID002">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="thumbnail">
+            <img src="img/img003.jpg" class="trigger" id="ID003">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="thumbnail">
+            <img src="img/img004.jpg" class="trigger" id="ID004">
+          </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Hidden pop-up div -->
+<div id="pop-up">
+  <h5 id="item-name"></h5>
+  <hr>
+  <ul>
+    <li><strong>Price :</strong> <span id="item-price"></span></li>
+    <li><strong>Stock :</strong> <span id="in-stock"></span></li>
+    <li><strong>Seller Info :</strong> <span id="seller-info"></span></li>
+    <li><strong>Description :</strong> <span id="item-desc"></span></li>
+  </ul>
+  <button>Buy</button>
+</div>
+
+</body>
+</html>
